@@ -39,7 +39,7 @@ struct RecetarioDetail: View {
                     Divider()
                     
                     HStack {
-                        Button("Isis") {
+                        Button("Map") {
                             print("go to pestaña map")
                             coordinator?.selectTab(index: 3)
                         }
